@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="my-profile">
+  <meta name="author" content="liuyong">
+  <title>liuyong</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+
+<body>
+  <!--导航-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light navbar-offcanvas fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand align-middle" href="https://github.com/blingblingredstar">
+        <img src="./../static/icon/github.svg" alt="github">
+      </a>
+      <ul class="navbar-nav navbar-top">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/blingblingredstar">Github</a>
+        </li>
+      </ul>
+      <button class="navbar-toggler navbar-toggler-right navbar-icon" type="button" data-toggle="collapse"
+        data-target="#navbar-mobile" aria-controls="navbar-mobile" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-bar bar1"></span>
+        <span class="icon-bar bar2"></span>
+        <span class="icon-bar bar3"></span>
+      </button>
+      <div class="navbar-collapse collapse ml-auto bg-dark" id="navbar-mobile">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-image">
+            <img src="./../static/avatar.png" alt="avatar">
+          </li>
+          <li class="nav-item">
+            <a href="#about-me" class="nav-link">关于我</a>
+          </li>
+          <li class="nav-item">
+            <a href="#coding" class="nav-link">前端练习</a>
+          </li>
+          <li class="nav-item">
+            <a href="#design" class="nav-link">电商作品</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">联系我</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--头部-->
+  <header class="banner">
+    <div class="container-fluid position-relative banner-bg">
+      <div class="banner-con text-center position-absolute">
+        <div class="avatar text-center">
+          <img class="rounded" src="./../static/avatar.png" alt="avatar">
+        </div>
+        <div class="self-intro text-white font-weight-light">
+          <h1 class="font-weight-lighter">刘勇</h1>
+          <h3 class="display-4 pt-3">热爱生活，拥抱变化</h3>
+          <p class="pt-4">26岁,90后，还很年轻</p>
+          <p>爱代码，也爱运动</p>
+          <p>不爱写分号，学习函数式编程中，没啥开发经验，但是基本功还算可以</p>
+        </div>
+      </div>
+      <div id="particles-js" class="position-absolute"></div>
+    </div>
+  </header>
+  <!-- 关于我 -->
+  <section class="about-me container-fluid text-center pt-4 pb-4" id="about-me">
+    <div class="container">
+        <h2 class="col p-4 font-weight-light">关于我<br /><small class="display-4">ABOUT ME</small></h2>
+      <ul class="row text-center">
+        <li class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img class="img-fluid" src="./../static/school.png" alt="school">
+          <p>
+            <strong>毕业于北京化工大学<br />职业技术学院</strong>
+            <br /><small>学历不高，但是学习能力并不差<br />深感其中差距，徜徉在计算机知识的海洋中</small>
+          </p>
+        </li>
+        <li class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img class="img-fluid" src="./../static/coding.gif" alt="coding">
+          <p>
+            <strong>自学前端出身<br />野生开发</strong>
+            <br /><small>喜欢钻研技术<br />非典型宅男<br />逻辑思维还行</small>
+          </p>
+        </li>
+        <li class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img class="img-fluid" src="./../static/design.png" alt="design">
+          <p>
+            <strong>三年电商设计经验</strong>
+            <br />
+            <small>
+              做过平面、天猫、移动端网页<br />
+              工作认真细心，踏实靠谱
+            </small>
+          </p>
+        </li>
+        <li class="col-lg-3 col-md-3 col-sm-6 col-6">
+          <img class="img-fluid" src="./../static/shakehands.png" alt="shakehands">
+          <p>
+            <strong>期待与您见面</strong><br />
+            <small>应该不会让你失望</small>
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 开发技能 -->
+  <section class="skills text-center bg-dark text-white pt-4 pb-2">
+    <div class="container">
+      <h2 class="col p-4 font-weight-light">开发技能<br /><small class="display-4">SKILLS</small></h2>
+      <ul class="row justify-content-start font-weight-light mt-4">
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552720689371" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="3673" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M112.198 80.609h799.677l-65.412 759.139-339.032 104.107-322.449-104.107-72.784-759.139zM752.494 310.007l19.347-115.158-515-0.923 33.168 345.482h335.348v90.287l-112.396 39.617-117.006-41.457-7.367-48.829-92.13 0.922 13.82 121.609 197.155 69.1 207.29-65.412 26.714-278.229h-364.831l-9.212-117.004 385.099-0.001zM752.494 310.007z"
+              fill="#e34e30" p-id="3674"></path>
+          </svg>
+          <p>HTML</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552720845472" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="5021" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M213.333333 128l-27.733333 142.506667h579.84L746.666667 362.666667H167.253333l-28.16 142.08h579.84l-32.426666 162.56-233.813334 77.226666-202.666666-77.226666 14.08-69.973334H121.6l-33.706667 170.666667 334.933334 128 386.133333-128 51.2-257.28 10.24-51.626667L936.106667 128H213.333333z"
+              fill="#42A5F5" p-id="5022"></path>
+          </svg>
+          <p>CSS</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552721011241" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="7950" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M977.068 8.534C972.8 4.266 968.534 0 960.002 0H64c-4.266 0-12.798 4.266-17.066 8.534-4.268 4.268-4.266 8.534-4.266 17.066l85.334 853.334c0 8.534 8.534 17.066 12.798 17.066l384 128h17.068L883.2 896c8.534-4.266 12.798-8.534 12.798-17.066L981.332 25.6c0.004-4.264 0.004-12.8-4.264-17.066zM512.002 772.268c0 4.266-4.268 12.8-8.534 17.066s-8.786 4.832-13.05 4.832l-4.014-0.566-149.334-42.666c-8.534-4.266-12.798-8.534-17.066-17.066L298.67 627.2c-4.266-12.798 4.266-21.334 17.066-25.6 12.798-4.266 21.334 4.266 25.602 17.066l17.066 93.866 110.934 29.868V260.268H234.668c-12.798 0-21.334-8.534-21.334-21.334 0-12.798 8.534-21.334 21.334-21.334h256c12.798 0 21.334 8.534 21.334 21.334v533.334zM810.668 243.2l-21.334 85.334c-4.266 12.798-12.964 19.118-25.6 17.066-13.316-2.16-18.416-12.87-17.066-25.602 1.608-15.188 12.798-59.732 12.798-59.732h-166.4V473.6H742.4c4.266 0 12.798 4.266 17.066 8.534 4.266 4.266 4.266 12.798 4.266 17.066l-42.666 234.666c0 8.534-8.534 12.798-12.798 17.066l-128 42.666c-4.266 0-19.768 5.9-29.868-12.798-4.266-12.798 4.266-21.334 12.798-25.602l115.2-38.4 34.134-196.268h-145.068c-12.798 0-21.334-8.534-21.334-21.334v-256c0-12.798 8.534-21.334 21.334-21.334h213.334c8.534 0 14.374 1.824 19.95 4.134 11.83 4.902 9.92 12.938 9.92 17.204z"
+              fill="#f0d95a" p-id="7951"></path>
+          </svg>
+          <p>Javascript</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552720504167" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="2902" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M615.6 123.6h165.5L512 589.7 242.9 123.6H63.5L512 900.4l448.5-776.9z" fill="#41B883" p-id="2903">
+            </path>
+            <path d="M781.1 123.6H615.6L512 303 408.4 123.6H242.9L512 589.7z" fill="#34495E" p-id="2904"></path>
+          </svg>
+          <p>Vue</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552721163304" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="8506" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M882.23288889 749.45422222L526.90488889 950.38577778V793.94133333l221.41155556-121.856 133.91644444 77.36888889z m24.34844444-22.07288889V307.08622222l-129.93422222 75.09333333v270.22222223l129.93422222 74.97955555z m-766.17955555 22.07288889l355.328 201.04533333V793.94133333L274.20444445 672.08533333l-133.80266667 77.36888889zM116.05333333 727.38133333V307.08622222l129.93422222 75.09333333v270.22222223L116.05333333 727.38133333z m15.24622222-447.60177778l364.43022223-206.16533333v151.32444445L262.144 353.39377778l-1.82044445 1.024c0 0.11377778-129.024-74.63822222-129.024-74.63822223z m760.03555556 0L526.90488889 73.728v151.32444445l233.472 128.34133333 1.82044444 1.024 129.13777778-74.63822223z"
+              fill="#8ED6FB" p-id="8507"></path>
+            <path
+              d="M495.72977778 758.21511111l-218.45333333-120.14933333V400.15644445l218.45333333 126.17955555v231.87911111z m31.17511111 0l218.45333333-120.03555556V400.15644445l-218.45333333 126.17955555v231.87911111zM291.95377778 372.62222222l219.24977777-120.49066667L730.45333333 372.62222222 511.31733333 499.25688889 291.95377778 372.62222222z"
+              fill="#1C78C0" p-id="8508"></path>
+          </svg>
+          <p>Webpack</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552724639883" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="1084" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M960 810.6c0 82.1-67.2 149.3-149.3 149.3H213.4C131.2 960 64 892.8 64 810.6V213.4C64 131.2 131.2 64 213.4 64h597.3C892.8 64 960 131.2 960 213.4v597.2z"
+              fill="#563D7C" p-id="1085"></path>
+            <path
+              d="M296 251.2h253.8c46.7 0 84.9 10.3 112.9 32.7 28 22.4 42 54.1 42 97.1 0 26.1-6.5 48.5-19.6 67.2-13.1 18.7-31.7 33.6-55.1 43.9v1.9c32.7 6.5 56.9 22.4 72.8 45.7 16.8 23.3 25.2 53.2 25.2 88.7 0 20.5-3.7 40.1-11.2 56.9-7.5 17.7-18.7 33.6-34.5 45.7-15.9 13.1-35.5 23.3-59.7 30.8-24.3 7.5-53.2 11.2-86.8 11.2H296V251.2z m91.4 218.3h149.3c22.4 0 40.1-6.5 55.1-18.7 14.9-12.1 22.4-30.8 22.4-54.1 0-26.1-6.5-44.8-19.6-56-13.1-10.3-32.7-15.9-56.9-15.9H388.3l-0.9 144.7z m0 229.6h161.5c28 0 49.5-7.5 64.4-21.5s23.3-34.5 23.3-61.6c0-26.1-7.5-45.7-23.3-59.7-15.9-14-37.3-20.5-64.4-20.5H387.4v163.3z"
+              fill="#FFFFFF" p-id="1086"></path>
+          </svg>
+          <p>Bootstrap</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552725028096" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="9302" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path
+              d="M839.4 913.3h-648c-42 0-76-34-76-76v-648c0-42 34-76 76-76h648c42 0 76 34 76 76v648c0 42-34 76-76 76z"
+              fill="#51D4FF" p-id="9303"></path>
+            <path
+              d="M796.4 838.3h-562c-24.3 0-44-19.7-44-44v-562c0-24.3 19.7-44 44-44h562c24.3 0 44 19.7 44 44v562c0 24.3-19.7 44-44 44z"
+              fill="#2D4B5D" p-id="9304"></path>
+            <path
+              d="M330.1 353.5c20.2-3.4 48.6-6 88.6-6 40.4 0 69.2 7.7 88.6 23.7 18.9 14.2 31 38.3 31 66.7 0 28.8-9 52.9-26.7 68.8-22.4 20.6-55.5 30.5-94.2 30.5-8.6 0-16.3-0.4-22.4-1.7v104.1h-64.9V353.5zM395 485.2c5.6 1.3 12 1.7 21.9 1.7 34.8 0 56.3-17.6 56.3-46.9 0-26.7-18.5-42.6-51.6-42.6-12.9 0-21.9 0.9-26.7 2.2v85.6zM568.3 582.4c12 7.3 37 15.5 56.3 15.5 19.8 0 28-6.5 28-17.2 0-10.8-6.5-16.3-30.5-24.1-43.9-14.6-60.6-38.3-60.2-62.8 0-39.6 33.5-69.2 85.6-69.2 24.5 0 46 6 58.9 12.5l-11.2 44.7c-9.5-4.7-28-11.6-45.6-11.6-15.9 0-24.9 6.5-24.9 16.8 0 9.9 8.2 15.5 34 24.1 40 13.8 56.3 34 56.8 64.5 0 39.6-30.5 68.4-90.8 68.4-27.5 0-52-6.5-68-15.1l11.6-46.5z"
+              fill="#FFFFFF" p-id="9305"></path>
+          </svg>
+          <p>Photoshop</p>
+        </li>
+        <li class="circle col-3 col-sm-3 col-md-2 col-lg mb-2">
+          <svg t="1552726334844" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="10140" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <path d="M108.544 108.544h808.96v808.96H108.544z" fill="#FFEA00" p-id="10141"></path>
+            <path
+              d="M413.696 329.728l-124.928 376.832h61.44l32.768-108.544H512l32.768 108.544h63.488l-124.928-376.832h-69.632z m83.968 221.184h-102.4l16.384-51.2c12.288-40.96 24.576-81.92 34.816-124.928h2.048c12.288 43.008 22.528 83.968 36.864 124.928l12.288 51.2zM942.08 0H81.92C36.864 0 0 36.864 0 81.92v860.16c0 45.056 36.864 81.92 81.92 81.92h860.16c45.056 0 81.92-36.864 81.92-81.92V81.92c0-45.056-36.864-81.92-81.92-81.92z m20.48 921.6c0 22.528-18.432 40.96-40.96 40.96H102.4c-22.528 0-40.96-18.432-40.96-40.96V102.4c0-22.528 18.432-40.96 40.96-40.96h819.2c22.528 0 40.96 18.432 40.96 40.96v819.2zM657.408 706.56H716.8V329.728h-59.392v376.832z"
+              fill="" p-id="10142"></path>
+          </svg>
+          <p>Illustrator</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 兴趣爱好 -->
+  <section class="intrest text-center text-white bg-dark pb-4">
+    <div class="container">
+      <!-- 标题 -->
+      <h2 class="col p-4 font-weight-light">兴趣爱好<br /><small class="display-4">INTRESTS</small></h2>
+      <ul class="row justify-content-between mt-4">
+        <li class="m-1 col btn btn-primary" data-toggle="tooltip" data-placement="top" title="练了三年，参见过几次比赛。">
+          巴西柔术</li>
+        <li class="m-1 col btn btn-secondary" data-toggle="tooltip" data-placement="top" title="喜欢周杰伦，古典音乐">音乐</li>
+        <li class="m-1 col btn btn-success" data-toggle="tooltip" data-placement="top" title="佛系举铁训练者">
+          力量训练</li>
+        <li class="m-1 col btn btn-danger" data-toggle="tooltip" data-placement="top" title="喜欢动作电影，例如《疾速追杀》。">电影</li>
+        <li class="m-1 col btn btn-warning" data-toggle="tooltip" data-placement="top"
+          title="什么书都看一些，运动训练，心理学等等，最近主要是计算机类目的">读书</li>
+        <li class="m-1 col btn btn-light" data-toggle="tooltip" data-placement="top" title="bug虐我千百遍，我视bug如初恋。">敲代码
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- 个人博客 -->
+  <section class="blog text-center pt-4 bg-dark">
+    <!-- 标题 -->
+    <h2 class="col p-4 font-weight-light text-white">
+      个人博客<br />
+      <small class="display-4">BLOG</small>
+    </h2>
+    <a class="blog-link row justify-content-center mt-4" href="https://blingblingredstar.github.io/">
+      <img class="img-fluid" src="./../static/front_end/blog.png" alt="blog">
+    </a>
+  </section>
+  <!-- 前端练习 -->
+  <section id="coding" class="coding container-fluid p-4 bg-light">
+    <div class="container">
+      <h2 class="col p-4 font-weight-light text-center">
+        前端练习<br />
+        <small class="display-4">Practice Make Perfect</small>
+      </h2>
+      <div class="card-deck m-2 p-2">
+        <div class="card">
+          <a href="https://blingblingredstar.github.io/stellar/"><img class="card-img-top"
+              src="./../static/front_end/blingblingredstar.github.io_stellar_.jpg" alt="视差滚动"></a>
+          <div class="card-body">
+            <h5 class="card-title">视差滚动练习</h5>
+            <p class="card-text">根据慕课网教程制作。<br />原理：利用background-attachment属性，使用jquery.stellar插件制作</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://blingblingredstar.github.io/baidu_ife-1/"><img class="card-img-top"
+              src="./../static/front_end/blingblingredstar.github.io_baidu_ife-1.jpg" alt="htmlcss练习"></a>
+          <div class="card-body">
+            <h5 class="card-title">百度前端学院任务练习</h5>
+            <p class="card-text">html和css样式练习，使用了flex布局，scss样式及webpack打包。</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://blingblingredstar.github.io/JavaScript30/"><img class="card-img-top"
+              src="https://javascript30.com/images/JS3-social-share.png"
+              alt="JavaScript-30"></a>
+          <div class="card-body">
+            <h5 class="card-title">JavaScript-30练习</h5>
+            <p class="card-text">根据<a href="https://github.com/wesbos">WesBos</a>的<a href="https://javascript30.com/">JavaScript30</a>视频教程所做的作业及Demo链接</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- 电商作品 -->
+  <section id="design" class="design container-fluid bg-light pb-4">
+    <div class="container">
+      <h2 class="col p-4 font-weight-light text-center">
+        电商作品<br />
+        <small class="display-4">Design</small>
+      </h2>
+      <div class="card-deck m-2 p-2">
+        <div class="card">
+          <a href="https://www.zcool.com.cn/work/ZMzA0MjI2MDQ=.html"><img class="card-img-top"
+              src="https://img.zcool.cn/community/01bea95baaea75a801213dea4dd76a.jpg@260w_195h_1c_1e_1o_100sh.jpg"
+              alt="天猫详情页"></a>
+          <div class="card-body">
+            <h5 class="card-title">天猫详情页</h5>
+            <p class="card-text">详情页设计两版，第一版根据公司官网风格设计，第二版根据个人思考设计，最终采用第一版</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.zcool.com.cn/work/ZMzA0MjI1MTY=.html"><img class="card-img-top"
+              src="https://img.zcool.cn/community/0192ac5baae9bda8012099c8176a4b.jpg@260w_195h_1c_1e_1o_100sh.jpg"
+              alt="银行平台需求"></a>
+          <div class="card-body">
+            <h5 class="card-title">银行平台日常需求</h5>
+            <p class="card-text">banner宣传图，移动端、pc端入口图</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.zcool.com.cn/work/ZMzA0MjMyMjg=.html"><img class="card-img-top"
+              src="https://img.zcool.cn/community/01a6235baaee95a801213dea7c52e8.jpg@260w_195h_1c_1e_1o_100sh.jpg"
+              alt="移动端页面"></a>
+          <div class="card-body">
+            <h5 class="card-title">移动端页面设计</h5>
+            <p class="card-text">工行分期活动页面设计稿及最终上线效果图</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-deck m-2 p-2">
+        <div class="card">
+          <a href="https://www.zcool.com.cn/work/ZMzA0MjIxMDQ=.html"><img class="card-img-top"
+              src="https://img.zcool.cn/community/01fd735baae8cfa801213dea393779.jpg@260w_195h_1c_1e_1o_100sh.jpg"
+              alt="平面设计"></a>
+          <div class="card-body">
+            <h5 class="card-title">平面设计作品</h5>
+            <p class="card-text">公司期刊报纸设计</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.zcool.com.cn/work/ZMzA0MjE2NDQ=.html"><img class="card-img-top"
+              src="https://img.zcool.cn/community/01c0ef5baae404a801213dea0dd673.jpg@260w_195h_1c_1e_1o_100sh.jpg"
+              alt="app活动页面及入口图设计"></a>
+          <div class="card-body">
+            <h5 class="card-title">app活动页面及入口图设计</h5>
+            <p class="card-text">通栏 首屏banner 频道图 活动页</p>
+          </div>
+        </div>
+        <div class="card">
+          <a href=""><img class="card-img-top"
+              src="https://img.zcool.cn/community/012b625baad9a2a801213dead2e3aa.jpg@260w_195h_1c_1e_1o_100sh.jpg"
+              alt="玉石精修图"></a>
+          <div class="card-body">
+            <h5 class="card-title">玉石精修图</h5>
+            <p class="card-text">和田玉产品精修</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="row justify-content-center text-center m-4">
+        <a id="btn-animate"
+          class="btn-group btn btn-warning text-dark align-items-center animated infinite pulse delay-2s"
+          href="https://www.zcool.com.cn/u/13674901">
+          <span>了解更多</span>
+          <img src="./../static/icon/right.svg" alt="right">
+        </a>
+      </div>
+    </div>
+  </section>
+  <footer id="contact" class="contact bg-dark text-white font-weight-light pt-5 pb-5">
+    <div class="container justify-content-center">
+      <ul class="row text-center font-weight-light pb-4">
+        <li class="col-lg-4 col-sm-12">
+          <img src="./../static/icon/wechat.svg" alt="wechat">
+          <p class="mt-2">liuyong602472</p>
+        </li>
+        <li class="col-lg-4 col-sm-12">
+          <img src="./../static/icon/mail.svg" alt="mail">
+          <p class="mt-2">564447023@qq.com</p>
+        </li>
+        <li class="col-lg-4 col-sm-12">
+          <img src="./../static/icon/mobile.svg" alt="mobile">
+          <p class="mt-2">18515947099</p>
+        </li>
+      </ul>
+      <p class="text-center">
+        <span class="h2 font-weight-light">THANKS FOR WATCHING<br /></span>
+        <small class="font-weight-lighter">感谢您的观看，如果您觉得还行，咱们可以聊聊<br /></small>
+        <span class="text-warning">希望尽快跟您取得联系</span>
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

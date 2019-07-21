@@ -1,0 +1,94 @@
+@import "./../../node_modules/bootstrap/scss/bootstrap";
+@import "./nav.scss";
+ul li {
+  list-style: none;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.about-me {
+  img {
+    padding: 10% 20%;
+  }
+}
+
+body > .navbar-collapse .navbar-top li a {
+  color: #fff;
+  font-size: 1.2em;
+  padding: 1em 0;
+}
+
+#navbar-mobile {
+  ul {
+    li:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      transition: all 0.3s ease-in-out;
+      color: #ffc107 !important;
+    }
+  }
+}
+
+.skills {
+  .circle {
+    font-size: 1em;
+    line-height: 3em;
+    svg {
+      width: 4em;
+      height: 4em;
+    }
+  }
+}
+
+.intrest {
+  button {
+    font-size: 0.9rem;
+  }
+}
+
+canvas {
+  display: block;
+}
+
+header {
+  background-color: #2e3338;
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  // background-color: #002b5a;
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // background-repeat: no-repeat;
+}
+
+.banner-bg {
+  height: 800px;
+  width: 100%;
+  padding-top: $navbar-height;
+}
+
+.banner-con {
+  width: 600px;
+  left: 50%;
+  margin-left: -300px;
+  z-index: 100;
+  .avatar {
+    padding: 80px 0;
+    img {
+      width: 160px;
+      height: 160px;
+    }
+  }
+}
+
+.card {
+  &:hover {
+    box-shadow: 0 0 10px #ffb80a;
+  }
+  transition: all 0.3s ease-in-out;
+}
